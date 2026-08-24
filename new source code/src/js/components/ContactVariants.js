@@ -23,16 +23,16 @@ const contactInfo = () => {
   <div
     class="flex gap-8 flex-wrap justify-center contact-info-container"
   >${contact_info
-    .map(
-      (item) => `
+      .map(
+        (item) => `
     <div class="relative border-2 border-[var(--border)] rounded-full p-8 group hover:border-(--text-primary) duration">
       <h1 class="text-3xl">${item.info}</h1>
       <div class="bg-[var(--bg-primary-inverse)] text-[var(--text-primary-inverse)] py-1 px-4 absolute top-0 -translate-y-1/2 rounded-full left-1/2 -translate-x-1/2 group-hover:opacity-100 opacity-0 duration">
         ${item.title}
       </div>
     </div>`
-    )
-    .join("")}
+      )
+      .join("")}
   </div>
 </div>
   `;

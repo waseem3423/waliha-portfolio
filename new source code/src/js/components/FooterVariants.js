@@ -11,7 +11,7 @@ const footer1 = () => {
       class="fixed footer-image z-1 left-0 bottom-0 h-screen w-screen overflow-hidden md:bg-contain bg-cover max-md:bg-no-repeat"
       style="
         background-image: url(/public/images/hero.jpg);
-        background-position: top center;
+        background-position: center center;
       "
     >
       <div class="overlay size-full absolute left-0 top-0"></div>
@@ -42,9 +42,9 @@ const footer1 = () => {
         </div>
 
         ${renderHeroName({
-          className:
-            "text-(--color-primary-fixed)! absolute left-1/2 -translate-x-1/2 bottom-16",
-        })}
+    className:
+      "text-(--color-primary-fixed)! absolute left-1/2 -translate-x-1/2 bottom-16",
+  })}
       </div>
     </footer>
   `;
@@ -56,7 +56,7 @@ const footer2 = () => {
         class="relative h-screen footer-placeholder max-sm:bg-no-repeat sm:bg-contain bg-cover"
         style="
           background-image: url(/public/images/hero.jpg);
-          background-position: top center;
+          background-position: center center;
         "
       ></div>
 
@@ -80,9 +80,9 @@ const footer2 = () => {
         </div>
 
         ${renderHeroName({
-          className:
-            "text-(--color-primary-fixed)! absolute left-1/2 -translate-x-1/2 bottom-16",
-        })}
+    className:
+      "text-(--color-primary-fixed)! absolute left-1/2 -translate-x-1/2 bottom-16",
+  })}
       </footer>`;
 };
 
@@ -90,6 +90,6 @@ export const renderFooter = (option) => {
   return option === "footer-1"
     ? footer1()
     : option === "footer-2"
-    ? footer2()
-    : `<h1 class="text-red-500! text-6xl lowercase! text-center">variant doesn't exists, please check the spelling of variant</h1>`;
+      ? footer2()
+      : `<h1 class="text-red-500! text-6xl lowercase! text-center">variant doesn't exists, please check the spelling of variant</h1>`;
 };
