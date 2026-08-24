@@ -8,7 +8,7 @@ export const projects = [
     title: "Brand Identity & Logo Suite",
     description:
       "A complete branding identity project featuring logo design, brand guidelines, color palette selection, typography specs, and stationery mockups for a modern startup.",
-    image: "image/portfolio_1.jpg",
+    image: "image/projects/portfolio_1.jpg",
     tags: ["branding", "logo design", "identity", "vector", "modern"],
     tools: ["illustrator", "photoshop", "figma"],
     link: "#",
@@ -20,7 +20,7 @@ export const projects = [
     title: "Social Media Campaign Graphics",
     description:
       "A series of high-converting social media posts, banners, story templates, and promotional creatives designed to boost brand engagement and product sales.",
-    image: "image/grocery_ecommerce.jpg",
+    image: "image/projects/grocery_ecommerce.jpg",
     tags: ["social media", "banner", "marketing"],
     tools: ["photoshop", "canva", "illustrator"],
     link: "#",
@@ -32,7 +32,7 @@ export const projects = [
     title: "Event Poster & Brochure Design",
     description:
       "Creative print media design including tri-fold brochure, promotional flyers, and large-format event posters crafted with vibrant color schemes and typography.",
-    image: "image/admin_dashboard.jpg",
+    image: "image/projects/admin_dashboard.jpg",
     tags: ["print design", "poster", "flyer", "typography"],
     tools: ["indesign", "photoshop", "illustrator"],
     link: "#",
@@ -44,7 +44,7 @@ export const projects = [
     title: "Product Packaging & Label Design",
     description:
       "Custom box packaging, bottle label designs, and 3D product render mockups created for an organic skincare product line.",
-    image: "image/grocery_app.jpg",
+    image: "image/projects/grocery_app.jpg",
     tags: ["packaging", "label design", "merchandise"],
     tools: ["illustrator", "photoshop"],
     link: "#",
@@ -56,7 +56,7 @@ export const projects = [
     title: "UI/UX App Visual Design",
     description:
       "Modern mobile application UI/UX screens, icon sets, and interactive component prototypes designed for an iOS & Android app.",
-    image: "image/portfolio_2.jpg",
+    image: "image/projects/portfolio_2.jpg",
     tags: ["ui/ux", "app design", "visuals"],
     tools: ["figma", "photoshop"],
     link: "#",
@@ -68,7 +68,7 @@ export const projects = [
     title: "Fashion Brand Creative Campaign",
     description:
       "Editorial photo manipulation, fashion lookbook design, and high-fashion digital banners tailored for an online clothing store launch.",
-    image: "image/fashion_ecommerce.jpg",
+    image: "image/projects/fashion_ecommerce.jpg",
     tags: ["fashion", "retouching", "banner"],
     tools: ["photoshop", "lightroom"],
     link: "#",
@@ -80,7 +80,7 @@ export const projects = [
     title: "Vector Illustration & Artwork",
     description:
       "Custom flat vector artwork, character illustrations, and mascot designs built with precision vector geometry.",
-    image: "image/landing_1.jpg",
+    image: "image/projects/landing_1.jpg",
     tags: ["vector art", "illustration"],
     tools: ["illustrator"],
     link: "#",
@@ -92,7 +92,7 @@ export const projects = [
     title: "Digital Magazine Layout",
     description:
       "Multi-page digital publication design featuring grid layout typography, photo spreads, and cover artwork.",
-    image: "image/app_1.jpg",
+    image: "image/projects/app_1.jpg",
     tags: ["editorial", "indesign", "layout"],
     tools: ["indesign", "photoshop"],
     link: "#",
@@ -104,7 +104,7 @@ export const projects = [
     title: "Creative Banner & Header Suite",
     description:
       "A collection of web headers, display ads, hero banners, and promotional cover graphics designed for e-commerce platforms.",
-    image: "image/landing_2.jpg",
+    image: "image/projects/landing_2.jpg",
     tags: ["web graphics", "banner", "ads"],
     tools: ["photoshop", "figma"],
     link: "#",

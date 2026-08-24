@@ -29,7 +29,7 @@ const projectSideCards = () => {
                       (
                         img
                       ) => `<div class="border border-[var(--text-primary)] rad p-4">
-                    <img src="image/${img.toLowerCase()}.svg" loading="lazy" class="grayscale size-7" alt="${img.toLowerCase()}" />
+                    <img src="image/tools/${img.toLowerCase()}.svg" loading="lazy" class="grayscale size-7" alt="${img.toLowerCase()}" />
                   </div>`
                     )
                     .join("")}

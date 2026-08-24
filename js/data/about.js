@@ -10,21 +10,21 @@ export const how_do_i_work = [
 // ==================[ Stack ]================== //
 export const tool_images = [
   // 1
-  "image/photoshop.svg",
+  "image/tools/photoshop.svg",
   // 2
-  "image/illustrator.svg",
+  "image/tools/illustrator.svg",
   // 3
-  "image/indesign.svg",
+  "image/tools/indesign.svg",
   // 4
-  "image/figma.svg",
+  "image/tools/figma.svg",
   // 5
-  "image/canva.svg",
+  "image/tools/canva.svg",
   // 6
-  "image/premiere.svg",
+  "image/tools/premiere.svg",
   // 7
-  "image/aftereffects.svg",
+  "image/tools/aftereffects.svg",
   // 8
-  "image/lightroom.svg",
+  "image/tools/lightroom.svg",
 ];
 //
 
