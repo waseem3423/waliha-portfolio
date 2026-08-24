@@ -22,7 +22,7 @@ export function set_client_option(opt) {
 5 - 3-cards
 6 - list
 */
-export let projects_option = "list";
+export let projects_option = "side-cards";
 export function set_projects_option(opt) {
   projects_option = opt;
 }
@@ -58,7 +58,7 @@ export function set_contact_option(opt) {
 1 - footer-1
 2 - footer-2
 */
-export let footer_option = "footer-1";
+export let footer_option = "footer-2";
 export function set_footer_option(opt) {
   footer_option = opt;
 }
