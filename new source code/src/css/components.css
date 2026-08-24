@@ -405,3 +405,10 @@ text {
   filter: grayscale(0%) brightness(1) contrast(1);
 }
 
+/* hero-image positioning fix */
+.hero-image img,
+.hero-background-image {
+  object-position: top center !important;
+  background-position: top center !important;
+}
+
