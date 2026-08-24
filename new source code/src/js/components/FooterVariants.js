@@ -11,7 +11,7 @@ const footer1 = () => {
       class="fixed footer-image z-1 left-0 bottom-0 h-screen w-screen overflow-hidden md:bg-contain bg-cover max-md:bg-no-repeat"
       style="
         background-image: url(/public/images/hero.jpg);
-        background-position: center center;
+        background-position: top center;
       "
     >
       <div class="overlay size-full absolute left-0 top-0"></div>
@@ -56,7 +56,7 @@ const footer2 = () => {
         class="relative h-screen footer-placeholder max-sm:bg-no-repeat sm:bg-contain bg-cover"
         style="
           background-image: url(/public/images/hero.jpg);
-          background-position: center center;
+          background-position: top center;
         "
       ></div>
 

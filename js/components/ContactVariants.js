@@ -6,17 +6,20 @@ import { renderArrow } from "./common.js";
 const contactInfo = () => {
   return `
 <div class="wrapper flex flex-col gap-16 justify-between">
-  <div class="2xl:text-[10.5rem] lg:text-9xl text-7xl text-query justify-query normal-case! text-primary flex flex-wrap gap-2 items-end">
+  <div class="2xl:text-[10.5rem] lg:text-9xl text-7xl text-query justify-query normal-case! text-primary flex flex-wrap gap-2 items-center">
     <span>✺ Interested in</span>
     <span>working with</span>
-    <div class="relative aspect-video 2xl:h-30 lg:h-22 h-16 mx-4">
-      <img
-        src="image/hero.jpg"
-        alt="me"
-        class="object-cover rounded-full size-full"
-      />
-    </div>
-    <span>?</span>
+    <span class="inline-flex items-center">
+      <div class="relative aspect-video 2xl:h-28 lg:h-20 h-14 mx-3 rounded-full overflow-hidden inline-block align-middle">
+        <img
+          src="image/hero.jpg"
+          alt="hero"
+          class="object-cover object-top size-full"
+          style="object-position: top center;"
+        />
+      </div>
+      <span>me?</span>
+    </span>
   </div>
   <div
     class="flex gap-8 flex-wrap justify-center contact-info-container"

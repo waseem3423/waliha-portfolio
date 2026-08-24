@@ -405,10 +405,18 @@ text {
   filter: grayscale(0%) brightness(1) contrast(1);
 }
 
-/* hero-image positioning fix */
+/* hero-image & user photos top positioning fix */
+.about-image,
 .hero-image img,
-.hero-background-image {
+.hero-background-image,
+.footer-image,
+.footer-placeholder {
   object-position: top center !important;
   background-position: top center !important;
+  transform-origin: top center !important;
+}
+
+.about-image {
+  transform: none !important;
 }
 
