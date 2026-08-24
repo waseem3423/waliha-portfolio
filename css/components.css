@@ -437,3 +437,21 @@ text {
 .theme-button {
   display: none !important;
 }
+
+/* Ticker / Marquee Banner Custom Green & White Theme */
+.ticker-wrapper {
+  background-color: #0D2504 !important;
+  border-top: 2px solid rgba(255, 255, 255, 0.8) !important;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.8) !important;
+  padding-top: 1.25rem !important;
+  padding-bottom: 1.25rem !important;
+}
+
+.ticker-wrapper h1 {
+  color: #8EBF24 !important;
+}
+
+.ticker-wrapper h1.outlinedText {
+  color: #0D2504 !important;
+  text-shadow: 1.5px 1.5px 0 #ffffff, -1.5px 1.5px 0 #ffffff, 1.5px -1.5px 0 #ffffff, -1.5px -1.5px 0 #ffffff !important;
+}
