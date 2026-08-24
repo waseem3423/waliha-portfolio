@@ -432,3 +432,10 @@ text {
 .service-list-item:hover img {
   filter: grayscale(0%) brightness(1) contrast(1);
 }
+
+/* hide settings and day/night theme panel */
+.theme-panel,
+.variants-button,
+.theme-button {
+  display: none !important;
+}
